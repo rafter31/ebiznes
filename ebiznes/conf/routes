@@ -1,0 +1,57 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET           /                                           controllers.Application.index
+
+# Products
+GET           /api/products                               controllers.ProductController.getAll
+GET           /api/products/:id                           controllers.ProductController.get(id: Long)
+GET           /api/categories/:categoryId/products        controllers.ProductController.getProducts(categoryId: Long)
+POST          /api/products                               controllers.ProductController.create
+DELETE        /api/products/:id                           controllers.ProductController.delete(id: Long)
+PUT           /api/products/:id                           controllers.ProductController.update(id: Long)
+
+GET           /api/carts                                  controllers.ProductController.getCart
+#GET           /api/cartItems/:id                          controllers.ProductController.getCartItemsByUserId(id:String)
+POST          /api/createCartItems                        controllers.ProductController.createCartItems
+GET           /api/deleteCartItems/:id                    controllers.ProductController.deleteCartItems(id:Int)
+GET           /api/realizeOrder                           controllers.ProductController.realizeOrder
+GET           /api/getCartByUserId/:id                          controllers.ProductController.getCartByUserId(id:String)
+GET           /api/getCartItemsByCartId/:CartId                   controllers.ProductController.getCartItemsByCartId(CartId:Int )
+OPTIONS        /api/createCartItems                                controllers.auth.UserController.echo
+
+POST          /api/createCart                            controllers.ProductController.createCart
+# Categories
+GET           /api/categories                             controllers.CategoryController.getAll
+GET           /api/categories/top                         controllers.CategoryController.getTop
+GET           /api/categories/:id                         controllers.CategoryController.get(id: Long)
+POST          /api/categories                             controllers.CategoryController.create
+DELETE        /api/categories/:id                         controllers.CategoryController.delete(id: Long)
+PUT           /api/categories/:id                         controllers.CategoryController.update(id: Long)
+
+# Users
+POST           /api/sign-up                                controllers.auth.SignUpController.submit
+OPTIONS        /api/sign-up                                controllers.auth.UserController.echo
+POST           /api/sign-in                                controllers.auth.SignInController.submit
+OPTIONS        /api/sign-in                                controllers.auth.UserController.echo
+GET            /authenticate/:provider                     controllers.auth.SocialAuthController.authenticate(provider)
+POST           /authenticate/:provider                     controllers.auth.SocialAuthController.authenticate(provider)
+GET            /api/user                                   controllers.auth.UserController.user
+OPTIONS        /api/user                                   controllers.auth.UserController.echo
+
+# Users
+POST           /api/sign-up                                controllers.auth.SignUpController.submit
+OPTIONS        /api/sign-up                                controllers.auth.UserController.echo
+POST           /api/sign-in                                controllers.auth.SignInController.submit
+OPTIONS        /api/sign-in                                controllers.auth.UserController.echo
+GET            /authenticate/:provider                     controllers.auth.SocialAuthController.authenticate(provider)
+POST           /authenticate/:provider                     controllers.auth.SocialAuthController.authenticate(provider)
+GET            /api/user                                   controllers.auth.UserController.user
+OPTIONS        /api/user                                   controllers.auth.UserController.echo
+
+# Map static resources from the /public folder to the /assets URL path
+GET           /assets/*file                               controllers.Assets.at(path="/public", file)
+
+    

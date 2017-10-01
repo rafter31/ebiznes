@@ -1,0 +1,45 @@
+# --- !Ups
+PRAGMA foreign_keys = 1;
+
+CREATE TABLE Category (
+ "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+ "name" VARCHAR  NOT NULL,
+ "short_desc" VARCHAR,
+ "full_desc" VARCHAR,
+ "image_url" VARCHAR,
+ "top_category" BOOLEAN NOT NULL
+);
+
+CREATE TABLE Product (
+  "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  "category_id" INTEGER NOT NULL,
+  "name" VARCHAR  NOT NULL,
+  "desc" TEXT NOT NULL,
+  "full_desc" VARCHAR,
+  "image_url" VARCHAR,
+  "price" DOUBLE NOT NULL,
+  FOREIGN KEY (category_id) REFERENCES Category(id) ON DELETE RESTRICT ON UPDATE RESTRICT
+);
+
+CREATE TABLE Orders (
+ "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+ "comment" VARCHAR  NOT NULL
+);
+
+CREATE TABLE OrderItem (
+ "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  "order_id" INTEGER NOT NULL,
+  "product_id" INTEGER NOT NULL,
+  "quantity" INTEGER NOT NULL,
+  "name" VARCHAR  NOT NULL,
+  "price" DOUBLE NOT NULL,
+  FOREIGN KEY (order_id) REFERENCES Orders(id) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  FOREIGN KEY (product_id) REFERENCES Product(id) ON DELETE RESTRICT ON UPDATE RESTRICT
+);
+
+# --- !Downs
+
+DROP TABLE Product;
+DROP TABLE Category;
+DROP TABLE OrderItem;
+DROP TABLE Orders;

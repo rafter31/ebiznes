@@ -1,0 +1,72 @@
+{
+	"name" : "Amanda Elaborada",
+	"desc" : "Klasyczna Amanda zachwyci cię łagodnym smakiem i delikatnym aromatem. Jeśli chcesz dać się uwieść yerbie, a jeszcze jej zbyt dobrze nie znasz, zacznij od klasycznej Amandy!",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/amanda-elaborada.png",
+	"price" : 39.99,
+	"categoryId" : 3
+}
+
+{
+	"name" : "Amanda Despalada",
+	"desc" : "Yerba mate Amanda Despalada produkowana w argentyńskiej prowincji Missiones. Opakowanie zawiera dosyć grubo pocięte listki bez gałązek. Despalada służy szybkiemu pobudzeniu, które wynika z proporcji suszu. Despalada jest zdecydowanie klasyczną mate. A to oznacza, że prócz lekko ziemistego aromatu jest w niej wyczuwalna goryczka.",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/amanda-despalada.png",
+	"price" : 26.99,
+	"categoryId" : 3
+}
+
+{
+	"name" : "Cruz de Malta Elaborada Con Palo",
+	"desc" : "Wysokogatunkowa yerba mate dla prawdziwych koneserów. Najczystsza klasyka w najlepszym wydaniu, której długie tradycje i standard są konsekwentnie kojarzone z szyldem krzyża maltańskiego.",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/crud-de-malta-elaborada-con-palo.png",
+	"price" : 29.99,
+	"categoryId" : 3
+}
+
+{
+	"name" : "La Hoja Elaborada",
+	"desc" : "Historia argentyńskich upraw w San Ignacio w prowincji Misiones. Yerba mate La hoja (czyt. La Oha) to listki z dodatkiem patyczków, które są poddawane specjalnemu procesowi suszenia.",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/la-hoja-elaborada.png",
+	"price" : 34.99,
+	"categoryId" : 3
+}
+
+
+{
+	"name" : "Lavazza Qualita Oro",
+	"desc" : "Kawa Lavazza Qualita Oro, podobnie jak inne kawy producenta Lavazza, to gwarancja świeżości, najwyższej jakości i bogatego smaku, który warto spróbować i odkrywać codziennie na nowo.",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/lavazza-qualita-oro.jpg",
+	"price" : 70.00,
+	"categoryId" : 1
+}
+
+{
+	"name" : "Ronnefeldt Darjeeling Superfine",
+	"desc" : "Czarna herbata Darjeeling Superfine® marki Ronnefeldt to herbata powstała z najwyższej jakości liści z drugiego zbioru z prowincji Dardżyling w Indiach.",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/ronnefeldt.jpg",
+	"price" : 38.00,
+	"categoryId" : 5
+}
+
+{
+	"name" : "Ronnefeldt Jasmin Xian Yu",
+	"desc" : "Jasmin Xian Yu jest wspaniałym połączeniem delikatności smaku i aromatu zielonej herbaty z intensywnością kwiatów jaśminu.",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/ronnefeldt-jasmin-xian-yu.jpg",
+	"price" : 42.00,
+	"categoryId" : 4
+}
+
+{
+	"name" : "Lavazza Espresso - puszka",
+	"desc" : "Lavazza Espresso jest kawą o pełnym, zrównoważonym smaku z delikatną nutą goryczy.",
+	"fullDesc" : "",
+	"imageUrl" : "/assets/images/products/lavazza-espresso-puszka.jpg",
+	"price" : 21.00,
+	"categoryId" : 2
+}

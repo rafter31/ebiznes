@@ -1,0 +1,39 @@
+{
+	"name" : "Kawa ziarnista",
+	"shortDesc" : "Aromatyczna kawa w pełnych ziarnach. Niezastąpiona każdego poranka.",
+	"fullDesc" : "Kawa ziarnista pozwala wydobyć niepowtarzalny smak i aromat przed każdym spożyciem. Dostarcza niezapomnianych wrażeń smakowych, pobudza i odpręża.",
+	"imageUrl" : "/assets/images/categories/kawa-ziarnista.png",
+	"topCategory" : true
+}
+
+{
+	"name" : "Kawa mielona",
+	"shortDesc" : "Wyśmienita mielona kawa, specjalnie zapakowana by zachować pełnię aromatu.",
+	"fullDesc" : "Mielona kawa dzięki specjalnej procedurze pakowania zachowuje swój aromat przez długi czas. Idealnie zmielona do różnych zastosowań pozwala zaoszczędzić czas każdego dnia.",
+	"imageUrl" : "/assets/images/categories/kawa-mielona.jpg",
+	"topCategory" : false
+}
+
+{
+	"name" : "Yerba mate",
+	"shortDesc" : "Wspaniała alternatywa dla tradycyjnej kawy. Doskonale pobudza i wprawia w dobry nastrój.",
+	"fullDesc" : "Yerba mate dostarcza wspaniałych walorów ostrokrzewu paragwajskiego. Swoją popularność Yerba Mate zawdzięcza niezwykłym właściwościom pobudzającym, wzmacniającym i oczyszczającym.",
+	"imageUrl" : "/assets/images/categories/yerba-mate.jpg",
+	"topCategory" : true
+}
+
+{
+	"name" : "Herbata zielona",
+	"shortDesc" : "Zielona herbata uznawana jest za napój młodości.",
+	"fullDesc" : "Zielona herbata – napój przyrządzany wyłącznie z liści herbaty chińskiej, które poddane zostały w czasie przetwarzania jedynie minimalnej oksydacji",
+	"imageUrl" : "/assets/images/categories/herbata-zielona.jpg",
+	"topCategory" : false
+}
+
+{
+	"name" : "Herbata czarna",
+	"shortDesc" : "Tradycyjna czarna herbata zachwyca smakiem i aromatem.",
+	"fullDesc" : "Czarna herbata działa pobudzająco. Zawiera również wiele składników pozytywnie wpływających na nasz organizm.",
+	"imageUrl" : "/assets/images/categories/herbata-czarna.jpg",
+	"topCategory" : true
+}
